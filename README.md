@@ -26,8 +26,6 @@ Starter code is provided for you, which includes some HTML and CSS.
 1. When the page loads, make a request to the PokéApi and have it display information about Pikachu.
 2. Add an input field/search bar. Track what the user has typed in that input as an attribute in state.
 3. Add a submit button. When the user clicks submit a second API request should be made to retrieve all the information about the pokemon whose name was typed in the search bar.
-4. Display the information about the searched pokemon on the page *instead of* the list of pokemon. **Hint**: Search conditional rendering in React.
-
 
 ## Bonus
 
