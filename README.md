@@ -5,10 +5,7 @@
 Using the [PokéApi](https://pokeapi.co/), create a Pokédex where users can not
 only browse a list of Pokémon characters, but also search for their favorites!
 
-Starter code is provided for you, which includes some HTML and CSS. The styling
-is provided by [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction),
-which is already linked. When you finish the base requirements, look
-into Bootstrap for the bonuses!
+Starter code is provided for you, which includes some HTML and CSS.
 
 ![Pokédex](img/screenshot2.png)
 
@@ -26,15 +23,13 @@ into Bootstrap for the bonuses!
 
 ## Requirements
 
-1. When the page loads, make a request to the PokéApi and then list all Pokémon in the browser. Each character
-   should appear in the `section#results` element. Include the Pokémon's name.
+1. When the page loads, make a request to the PokéApi and have it display information about Pikachu.
 2. Add an input field/search bar. Track what the user has typed in that input as an attribute in state.
 3. Add a submit button. When the user clicks submit a second API request should be made to retrieve all the information about the pokemon whose name was typed in the search bar.
-4. Display the information about the searched pokemon on the page *instead of* the list of pokemon. **Hint**: Search conditional rendering in React.
-
 
 ## Bonus
 
+- Make the home page initially render a list of all the Pokemon. When they click on one, have it display information about just that pokemon. **Hint**: Look into conditional rendering. Also, you can have more than one useEffect!
 - Add a dropdown that includes the following options: Name, Move, Ability, and
    Location. Focus the search based on the option the user selects for the dropdown menu.
    When the Search button is clicked, make a request to the PokéApi to search
@@ -45,8 +40,6 @@ into Bootstrap for the bonuses!
   pokemon search results
 - Make your Pokédex responsive using the
   [Bootstrap grid](https://react-bootstrap.netlify.com/layout/grid/#grid)!
-- For the "Name" and "Catch 'Em All" searches, show the image of the pokemon in
-  the results.
 
 ## [License](LICENSE)
 
